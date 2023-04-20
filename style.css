@@ -1,0 +1,47 @@
+table { 
+    border: 1px 
+    dashed cyan; 
+    padding: 5px; }
+
+th {
+    background-color: violet; 
+    color: rgb(53, 50, 50);
+    text-align: center; }
+
+td { border: 1px solid violet; 
+    padding: 5px; color: violet; 
+    text-align: center; } 
+
+tr { 
+    border: 1px solid rgb(0, 255, 255); 
+    padding: 5px; }
+
+button {
+    border: 1px solid violet; 
+    padding: 5px; color: violet; 
+    text-align: start;
+    background-color: transparent;
+}    
+a {
+    color: rgb(53, 50, 50);
+    text-decoration: none;
+}
+
+th, td {
+    min-width: 100px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(238, 232, 238);
+}
+
+.des:hover {
+    background-color: violet;
+  }
+.ins:hover {
+    background-color: violet;
+  }
+  
+  button:active {
+    transform: translateY(5px);
+  }
